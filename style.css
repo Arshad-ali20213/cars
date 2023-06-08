@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+
+}
+body{
+    background-color: rgb(15, 15, 183);
+}
+.items{
+    display: flex;
+    justify-content: center;
+
+}
+.Card{
+    width: 300px;
+    height: 70vh;
+    background-color: rgb(172, 234, 40);
+    margin: 150px 50px;
+    border-radius: 15px;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    text-align: justify;
+    padding: 8px;
+}
+
+.card-1{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.chm9ucEu0QOepXgC6f2JRgHaEK&pid=Api&P=0&h=180);
+
+}
+
+.card-2{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.xDNDPihwNfJRo_08epQLAgHaEK&pid=Api&P=0&h=180);
+
+}
+
+.card-3{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.5cjK5hTBAo3fUrOx5O8J7QHaEK&pid=Api&P=0&h=180);
+
+}
+
+
+.card-img{
+    height: 30vh;
+    border-radius: 15px;
+}
+
+.Card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px white;
+    transition: 0.5s;
+
+
+}
